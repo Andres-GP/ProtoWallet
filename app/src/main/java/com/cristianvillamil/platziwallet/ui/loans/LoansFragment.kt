@@ -36,7 +36,6 @@ class LoansFragment : Fragment() {
 
     private fun initRecyclerView() {
         val loansList = listOf(
-            Loan("", 50.toDouble(), 500.toDouble(), ""),
             Loan("", 50.toDouble(), 500.toDouble(), "")
         )
         loansRecyclerView.adapter = adapter
