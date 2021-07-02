@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/primary">
+    android:background="@color/blue">
 
 
     <TextView
@@ -15,7 +15,7 @@
         android:layout_marginTop="4dp"
         android:layout_marginEnd="16dp"
         android:fontFamily="@font/montserrat_light"
-        android:text="Saldo disponible: $1'576.000"
+        android:text="Available balance: $1’576.000"
         android:textColor="@color/translucent_white"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,10 +37,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/montserrat_bold"
-            android:hint="Valor a transferir"
+            android:hint="Transference Value"
             android:inputType="number"
             android:textColor="@color/translucent_white"
-            android:textSize="32sp" />
+            android:textSize="25dp" />
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -53,16 +53,18 @@
         android:elevation="5dp"
         android:padding="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/availableBalanceValueTextView">
+        app:layout_constraintTop_toBottomOf="@id/availableBalanceValueTextView"
+        >
 
         <TextView
             android:id="@+id/whoTransferTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/montserrat_bold"
-            android:text="¿A quien vas a transferir?"
-            android:textColor="@color/primary_text"
+            android:text="Who is blessed today?"
+            android:textColor="@color/translucent_white"
             android:textSize="20sp"
+            android:layout_marginTop="15dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -83,12 +85,14 @@
             android:layout_height="wrap_content"
             android:background="@drawable/transfer_button_selector"
             android:enabled="false"
-            android:fontFamily="@font/montserrat_bold"
-            android:text="Transferir"
+            android:fontFamily="sans-serif-medium"
+            android:text="Transfer"
             android:textColor="@color/translucent_white"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginBottom="30dp"
+            />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

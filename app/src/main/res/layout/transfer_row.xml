@@ -6,8 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="8dp"
-    app:cardCornerRadius="8dp"
-    tools:cardBackgroundColor="@color/divider">
+    app:cardCornerRadius="20dp"
+    tools:cardBackgroundColor="@color/primary_light"
+    app:cardElevation="21dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -27,9 +28,9 @@
             android:id="@+id/personNameTextView"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
+            android:layout_marginStart="20dp"
             android:fontFamily="@font/montserrat_bold"
-            android:text="Alejandro Fernandez"
+            android:text="Derick Mcnoddar"
             android:textColor="@color/translucent_white"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/profilePhotoImageView"
@@ -41,19 +42,19 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:fontFamily="@font/montserrat_regular"
-            android:text="**** 5432"
+            android:text="**** 4568"
             android:textColor="@color/translucent_white"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@id/personNameTextView"
             app:layout_constraintTop_toBottomOf="@id/personNameTextView" />
 
         <TextView
-            android:id="@+id/bankNameTextView"
+            android:id="@+id/bankNameTextVieww"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:fontFamily="@font/montserrat_light"
-            android:text="Bancolombia"
+            android:text="Bank of America"
             android:textColor="@color/translucent_white"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@id/accountNumberTextView"

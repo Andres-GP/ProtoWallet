@@ -219,7 +219,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="45dp"
-            android:fontFamily="@font/montserrat_regular"
+            android:fontFamily="@font/montserrat_bold"
             android:text="Operations"
             android:textColor="@color/primary_text"
             android:textSize="22sp"

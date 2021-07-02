@@ -32,7 +32,7 @@ class LoanViewHolder(private val view: View) : RecyclerView.ViewHolder(view) {
     fun bindItem(loan: Loan) = with(view) {
         Picasso
             .get()
-            .load("https://tickera-wpsalad.netdna-ssl.com/wp-content/themes/tickera/style/img/freebies/icons/events/24.png")
+            .load("https://images.unsplash.com/photo-1586083702768-190ae093d34d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=395&q=80")
             .into(loanImageView)
 
     }
