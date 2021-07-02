@@ -4,7 +4,8 @@
     <color name="primary_dark">#21232F</color>
     <color name="primary_light">#373E4E</color>
     <color name="blueButton">#4A5AFF</color>
-    <color name="blueButtonPressed">#794AFF</color>
+    <color name="blueButtonPressedDone">#794AFF</color>
+    <color name="blueButtonPressed">#4A5AFF</color>
     <color name="accent">#607D8B</color>
     <color name="primary_text">#FCFCFC</color>
     <color name="secondary_text">#FCFCFC</color>
