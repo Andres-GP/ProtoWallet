@@ -4,7 +4,7 @@ Native Android Mock Wallet Migrated to MVP architecture with UI Completely refor
 
 ---
 
-Find it on Google's Playstore:
+Find it on Google's Playstore: https://play.google.com/store/apps/details?id=com.cristianvillamil.platziwallet
 
 ![pexels-helena-lopes-745045 1](https://user-images.githubusercontent.com/81189565/130150291-ca027b12-d155-489a-a76b-563e6f4bf18f.png)
 
